@@ -1,0 +1,15 @@
+body {
+  padding: 20px;
+}
+
+#input {
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-color: rgba(5, 5, 53, 0.12);
+}
+
+.list-img {
+  width: 400px;
+}
