@@ -10,6 +10,16 @@ body {
   border-color: rgba(5, 5, 53, 0.12);
 }
 
-.list-img {
+.list__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list__img {
   width: 400px;
 }
