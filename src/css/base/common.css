@@ -1,25 +1,52 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   padding: 20px;
+  font-size: 18px;
+  letter-spacing: -0.28px;
 }
 
 #input {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 20px;
-  font-size: 20px;
-  border-color: rgba(5, 5, 53, 0.12);
+  font-size: 16px;
+  border-color: rgb(0, 0, 72);
+  outline: none;
 }
 
-.list__item {
+.country__item {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.list__item:not(:last-child) {
-  margin-bottom: 10px;
+.country__img {
+  width: 300px;
+  height: 200px;
 }
 
-.list__img {
-  width: 400px;
+.country__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.country__title {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.country__thumb {
+  display: flex;
+  gap: 20px;
+}
+
+.country__content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
